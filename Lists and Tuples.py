@@ -6,7 +6,7 @@ d = [] #Empty List
 print(a[-1]) # accessing an Element in a List
 print(b[1]) # accessing element at position 2 and index 1
 print(c[1])
-#print(a[7]) #IndexError: list index out of range
+# print(a[7]) #IndexError: list index out of range
 # Slicing of Lists
 print(a[1:4]) # Slicing of list a (The last index i.e; index 4 will not be printed)
 print(b[0:5])
