@@ -56,3 +56,29 @@ matrix = [
     [7,8,9],
 ] # Matrix list
 print(matrix[2][1]) # Accessing element
+
+#Tuples
+t = (1,3,4) # Tuples are immutable 
+# just like list have some index features tuples also do but since tuples are immutable we can't perform much operations on tuples
+point = (10, 20)
+
+print(point)
+print(type(point))
+
+
+# ------------------------------------------------------------
+# Tuple indexing
+# ------------------------------------------------------------
+
+print(point[0])
+print(point[1])
+
+
+# ------------------------------------------------------------
+# Tuple slicing
+# ------------------------------------------------------------
+
+numbers = (10, 20, 30, 40, 50)
+
+print(numbers[1:4])
+print(numbers[::-1])
